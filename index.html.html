@@ -1,0 +1,34 @@
+<html>
+<head>
+   <title>Java Script</title>
+</head>
+<body>
+    <p id="htext"></p>
+    <button onclick="getText1()";>RED TEXT</button>
+    <button onclick="getText2()";>BLUE TEXT</button>
+    <button onclick="getText3()";>GREEN TEXT</button>
+    <script type="text/javascript">
+    function getText1()
+    {
+    var elem=document.getElementById("htext");
+    elem.innerHTML="<strong>HELLO WORLD</strong><u>javascript</u>";
+    elem.style.fontsize="300px";
+    elem.style.color="red";
+    }
+     function getText2()
+    {
+    var elem=document.getElementById("htext");
+    elem.innerHTML="<strong>HELLO WORLD</strong><u>javascript</u>";
+    elem.style.fontsize="300px";
+    elem.style.color="blue";
+    }
+     function getText3()
+    {
+    var elem=document.getElementById("htext");
+    elem.innerHTML="<strong>HELLO WORLD</strong><u>javascript</u>";
+    elem.style.fontsize="100px";
+    elem.style.color="green";
+    }
+    </script>
+    </body>
+    </html>
